@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/* Testeira com imagem de fundo */
+/* Cabeçalho com imagem de fundo */
 header {
   background: url('bg-show.jpeg') no-repeat center center;
   background-size: cover;
@@ -22,34 +22,32 @@ header {
 header .logo-circle {
   width: 150px;
   height: 150px;
-  background: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.9);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
 
 header .logo-circle img {
   max-width: 80%;
 }
 
-/* Título opcional */
 header h1 {
   font-size: 2em;
-  margin: 0;
+  margin: 10px 0 0 0;
   color: #fff;
 }
 
-/* Menu */
+/* Menu de navegação */
 nav {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 nav a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 12px;
   font-weight: 500;
@@ -62,7 +60,6 @@ nav a:hover {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Conteúdo principal */
 main {
   max-width: 800px;
   margin: 40px auto;
@@ -84,7 +81,17 @@ section h2 {
   color: #00ffff;
 }
 
-/* Links de plataformas e redes */
+/* Links em seções */
+section a {
+  color: #00ffff;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Botões */
 .platform-links,
 .social-links {
   display: flex;
@@ -111,7 +118,6 @@ section h2 {
   transform: translateY(-2px);
 }
 
-/* Rodapé */
 footer {
   text-align: center;
   font-size: 0.9em;
