@@ -8,16 +8,17 @@ body {
 }
 
 header {
-  padding: 30px 20px 10px;
+  padding: 50px 20px 20px;
 }
 
 .logo {
-  width: 150px;
-  margin-bottom: 10px;
+  width: 200px;
+  max-width: 80%;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.2em;
   margin: 0;
 }
 
@@ -29,6 +30,7 @@ nav.language-switch a {
   color: #aaa;
   text-decoration: none;
   margin: 0 8px;
+  font-size: 0.95em;
 }
 
 nav.language-switch a:hover {
@@ -36,11 +38,11 @@ nav.language-switch a:hover {
 }
 
 main {
-  padding: 0 20px 40px;
+  padding: 0 20px 50px;
 }
 
 section.bio, section.links {
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto 40px;
   text-align: left;
 }
@@ -68,3 +70,4 @@ footer {
   font-size: 0.9em;
   color: #666;
 }
+
