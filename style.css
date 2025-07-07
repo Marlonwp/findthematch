@@ -1,62 +1,70 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #000 url('https://images.unsplash.com/photo-1511376777868-611b54f68947?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80') no-repeat center center;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  background: url('img/bg-show.jpg') no-repeat center center fixed;
   background-size: cover;
-  color: #fff;
 }
 
 header {
   text-align: center;
-  padding: 40px 20px 20px;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px 20px 20px 20px;
 }
 
-.logo {
+header img.logo {
   max-width: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 2.2em;
+  font-size: 2.5em;
   margin: 0;
 }
 
 nav.menu {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 nav.menu a {
-  color: #0ff;
+  color: #eeeeee;
   text-decoration: none;
   margin: 0 10px;
   font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 nav.menu a:hover {
+  color: #0ff;
   text-decoration: underline;
 }
 
 main {
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 900px;
+  margin: auto;
   padding: 20px;
-  background-color: rgba(0,0,0,0.6);
+  background-color: rgba(0,0,0,0.7);
   border-radius: 8px;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 h2 {
-  color: #0ff;
-  border-bottom: 1px solid #0ff;
+  color: #00ffff;
+  border-bottom: 2px solid #00ffff;
   padding-bottom: 5px;
+}
+
+p {
+  line-height: 1.6;
 }
 
 .icons {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .icons a {
@@ -66,16 +74,17 @@ h2 {
   border-radius: 4px;
   text-decoration: none;
   font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .icons a:hover {
-  background-color: #0cc;
+  background-color: #00cccc;
+  color: #000;
 }
 
 footer {
   text-align: center;
   padding: 20px;
   font-size: 0.9em;
-  background-color: rgba(0,0,0,0.7);
-  margin-top: 40px;
+  color: #aaa;
 }
