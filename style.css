@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
 body {
   background-color: #000;
-  color: #fff;
-  font-family: 'Arial', sans-serif;
+  color: #eee;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -20,6 +22,7 @@ header {
 h1 {
   font-size: 2.2em;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 nav.language-switch {
@@ -27,13 +30,14 @@ nav.language-switch {
 }
 
 nav.language-switch a {
-  color: #aaa;
+  color: #999;
   text-decoration: none;
   margin: 0 8px;
   font-size: 0.95em;
 }
 
 nav.language-switch a:hover {
+  color: #00ffff;
   text-decoration: underline;
 }
 
@@ -47,22 +51,34 @@ section.bio, section.links {
   text-align: left;
 }
 
+section.bio h2, section.links h2 {
+  color: #00ffff;
+  border-bottom: 1px solid #222;
+  padding-bottom: 5px;
+}
+
 section.links ul {
   list-style: none;
   padding: 0;
+  margin: 20px 0;
 }
 
 section.links li {
-  margin: 8px 0;
+  margin: 10px 0;
 }
 
 section.links a {
-  color: #fff;
+  color: #eee;
   text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #00ffff;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 section.links a:hover {
-  text-decoration: underline;
+  background-color: #00ffff;
+  color: #000;
 }
 
 footer {
