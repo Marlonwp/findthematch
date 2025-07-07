@@ -28,17 +28,17 @@ nav {
 }
 
 nav a {
-  color: #008080; /* Cor revisada: teal escuro, bem legível */
+  color: #333;
   text-decoration: none;
-  margin: 0 12px;
+  margin: 0 15px;
   font-weight: 500;
-  padding: 4px 8px;
+  padding: 5px 8px;
   border-radius: 4px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 nav a:hover {
-  background-color: rgba(0, 128, 128, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
   color: #000;
 }
 
@@ -84,7 +84,7 @@ section h2 {
 
 .platform-links a:hover,
 .social-links a:hover {
-  background-color: #008c9e;
+  background-color: #0097a7;
 }
 
 footer {
