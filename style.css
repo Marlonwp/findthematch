@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #000;
   color: #eee;
@@ -25,6 +29,26 @@ h1 {
   letter-spacing: 2px;
 }
 
+.main-menu {
+  background: #000;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.main-menu a {
+  color: #eee;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 0.95em;
+  transition: color 0.3s;
+}
+
+.main-menu a:hover {
+  color: #00ffff;
+}
+
 nav.language-switch {
   margin: 20px 0;
 }
@@ -45,25 +69,30 @@ main {
   padding: 0 20px 50px;
 }
 
-section.bio, section.links {
+section {
   max-width: 800px;
-  margin: 0 auto 40px;
+  margin: 0 auto 60px;
   text-align: left;
 }
 
-section.bio h2, section.links h2 {
+section h2 {
   color: #00ffff;
   border-bottom: 1px solid #222;
   padding-bottom: 5px;
 }
 
+section p {
+  margin: 10px 0 20px;
+}
+
+.streaming-links,
 .social-links {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  margin-top: 20px;
 }
 
+.streaming-links a,
 .social-links a {
   color: #eee;
   text-decoration: none;
@@ -74,13 +103,29 @@ section.bio h2, section.links h2 {
   transition: color 0.3s;
 }
 
+.streaming-links a:hover,
 .social-links a:hover {
   color: #00ffff;
 }
 
+.streaming-links img,
 .social-links img {
   width: 24px;
   height: 24px;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.photo-gallery img {
+  width: 300px;
+  height: auto;
+  border: 1px solid #222;
 }
 
 footer {
@@ -88,5 +133,3 @@ footer {
   font-size: 0.9em;
   color: #666;
 }
-
-
