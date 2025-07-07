@@ -6,7 +6,7 @@ body {
   line-height: 1.6;
 }
 
-/* Cabeçalho com imagem de fundo */
+/* Testeira com imagem de fundo */
 header {
   background: url('bg-show.jpeg') no-repeat center center;
   background-size: cover;
@@ -22,32 +22,35 @@ header {
 header .logo-circle {
   width: 150px;
   height: 150px;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+  overflow: hidden;
+  margin-bottom: 10px;
 }
 
 header .logo-circle img {
-  max-width: 80%;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 header h1 {
   font-size: 2em;
-  margin: 10px 0 0 0;
+  margin: 0;
   color: #fff;
+  text-shadow: 0 0 4px rgba(0,0,0,0.7);
 }
 
-/* Menu de navegação */
 nav {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 nav a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   margin: 0 12px;
   font-weight: 500;
@@ -57,9 +60,10 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255,255,255,0.2);
 }
 
+/* Conteúdo principal */
 main {
   max-width: 800px;
   margin: 40px auto;
@@ -81,23 +85,13 @@ section h2 {
   color: #00ffff;
 }
 
-/* Links em seções */
-section a {
-  color: #00ffff;
-  text-decoration: none;
-}
-
-section a:hover {
-  text-decoration: underline;
-}
-
-/* Botões */
+/* Botões bonitos */
 .platform-links,
 .social-links {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .platform-links a,
