@@ -10,10 +10,9 @@ body {
 header {
   background: url('bg-show.jpeg') no-repeat center center;
   background-size: cover;
-  height: 300px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: relative;
 }
@@ -33,24 +32,31 @@ header {
 .logo-circle img {
   width: 80%;
   height: auto;
+  display: block;
 }
 
 /* Título */
 header h1 {
   font-size: 2em;
-  margin: 10px 0 0 0;
+  margin: 10px 0 10px 0;
   color: #fff;
   text-shadow: 1px 1px 2px #000;
+}
+
+/* Barra que contém nav + idioma */
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 10px;
 }
 
 /* Navegação */
 nav {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
   gap: 15px;
-  margin-top: 10px;
 }
 
 nav a {
@@ -100,7 +106,7 @@ section h2 {
 .button-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 15px;
   margin-top: 15px;
 }
 
