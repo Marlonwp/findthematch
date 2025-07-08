@@ -20,8 +20,8 @@ header {
 
 /* Logo circular com animação */
 .logo-circle {
-  width: 200px;
-  height: 200px;
+  width: 120px;
+  height: 120px;
   background: rgba(255, 255, 255, 0.85);
   border-radius: 50%;
   display: flex;
@@ -32,8 +32,8 @@ header {
 }
 
 .logo-circle img {
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
   display: block;
 }
