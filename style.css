@@ -18,26 +18,25 @@ header {
   animation: fadeIn 1.5s ease;
 }
 
-/* Logo circular com animação */
 .logo-circle {
-  width: 120px;
-  height: 120px;
-  background: rgba(255, 255, 255, 0.85);
+  width: 160px;              /* aumentou o tamanho */
+  height: 160px;
+  background: #ffffff;       /* fundo branco sólido */
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  animation: scaleIn 1s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3); /* sombra leve opcional */
 }
 
 .logo-circle img {
-  width: 60%;
-  height: 60%;
+  width: 70%;
+  height: 70%;
   object-fit: contain;
-  background: rgba(255, 255, 255, 0.85);
   display: block;
 }
+
 
 /* Título */
 header h1 {
