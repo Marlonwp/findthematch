@@ -32,8 +32,8 @@ header {
 }
 
 .logo-circle img {
-  width: 80%;
-  height: 80%;
+  width: 50%;
+  height: 50%;
   object-fit: contain;
   display: block;
 }
